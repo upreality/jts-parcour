@@ -1,0 +1,102 @@
+<script type="text/javascript">
+    function setupABTestProperty(propName) {
+        if (window.hasOwnProperty('unityInstance')) {
+            window.unityInstance.SendMessage('ABTestProperties', 'HandleProperty', propName);
+        }
+        window.sessionStorage.setItem('prop' + propName, 'enabled');
+    }
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+            if (document.scripts[j].src === r) {
+                return;
+            }
+        }
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(90460335, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true
+    });
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/90460335" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+
+<script type="text/javascript">
+
+    vkBridge.send('VKWebAppInit');
+
+    function auth() {
+        vkBridge.send('VKWebAppGetUserInfo').then(_info => {
+            console.log(_info);
+            unityI.SendMessage('VKSDK', 'AuthenticateSuccess', JSON.stringify(_info));
+        });
+    }
+
+    function getUserData() {
+        vkBridge.send("VKWebAppStorageGet", {"keys": ["_save"]}).then(data => {
+            console.log(data);
+            unityI.SendMessage('VKSDK', 'DataGetting', JSON.stringify(data));
+        });
+    }
+
+    function setUserData(data) {
+        console.log(data);
+        vkBridge.send('VKWebAppStorageSet', {"key": "_save", "value": data}).then(_info => {
+            console.log("Saved!")
+        });
+    }
+
+    function showFullscreenAd() {
+        vkBridge
+            .send('VKWebAppShowNativeAds', {ad_format: "interstitial"})
+            .then(data => {
+                    if (data.result) {
+                        window.unityInstance.SendMessage('VKSDK', 'OnInterstitialShown');
+                    } else {
+                        window.unityInstance.SendMessage('VKSDK', 'OnInterstitialError', JSON.stringify(data.result));
+                    }
+                    console.log(data);
+                }
+            ).catch(e => {
+            window.unityInstance.SendMessage('VKSDK', 'OnInterstitialError', JSON.stringify(e));
+        });
+    }
+
+    function showRewardedAd() {
+        vkBridge.send('VKWebAppShowNativeAds', {ad_format: "reward"}).then(data => {
+            console.log(data);
+            <!--          window.unityInstance.SendMessage('VKSDK', 'RewardGetting',JSON.stringify(data.result));-->
+        })
+    }
+
+    function showInviteBox() {
+        vkBridge.send("VKWebAppShowInviteBox", {})
+            .then(data => console.log(data.success))
+            .catch(error => console.log(error));
+    }
+
+    function showWallPostBox(message, attachments) {
+        vkBridge.send("VKWebAppShowWallPostBox", {
+            "message": message,
+            "attachments": attachments
+        })
+            .then(data => console.log(data.success))
+            .catch(error => console.log(error));
+    }
+
+</script>

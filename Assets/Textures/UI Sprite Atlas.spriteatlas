@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 3
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: fb0793ba43ead8c4a89d62e19ce3e04e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3e4224502b3c68c49a693c4482f04c1e, type: 3}
+  - {fileID: 21300000, guid: b7d245916891cca47a0144e12a82e086, type: 3}
+  - {fileID: 21300000, guid: a94746a18ee70254699a36e787901ceb, type: 3}
+  - {fileID: 21300000, guid: c258c32458014dd4b978b8e49973240f, type: 3}
+  - {fileID: 21300000, guid: a40d69c5f6e095a41a65d0b2dcbee145, type: 3}
+  - {fileID: 21300000, guid: 253a370633f1cd746a2b7d2a577a7e5c, type: 3}
+  - {fileID: 21300000, guid: a454050719005b444b59a84eaafba779, type: 3}
+  - {fileID: 21300000, guid: aa8cdb181245c3a43afe2985468b1856, type: 3}
+  - {fileID: 21300000, guid: 4783f2f911ee11f4aa91de8d12dae0a4, type: 3}
+  - {fileID: 21300000, guid: d6a1673a31851fd4395c287261da36e4, type: 3}
+  - {fileID: 21300000, guid: 3d36b4bc6627719429dd8369aa6fd21b, type: 3}
+  - {fileID: 21300000, guid: b33c33dc03bb25f4bbc7e757ea53055d, type: 3}
+  - {fileID: 21300000, guid: 4698131d177ad97499c1ad33393d2e50, type: 3}
+  - {fileID: 21300000, guid: d2b14d3d63881fe48be1b89bc6fc85f5, type: 3}
+  - {fileID: 21300000, guid: 83a1645ddb3ee4d43971152eb5c09cd6, type: 3}
+  - {fileID: 21300000, guid: 2be7b70e984b51444aca9c12ae4723a7, type: 3}
+  - {fileID: 21300000, guid: 0f4830ce7d1c08848b54798c8953dd0b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - complete-portal
+  - Division line
+  - icons8-video-50
+  - 34-347014_invite-friends-comments-invite-friends-icon-png
+  - share
+  - jump_icon
+  - UI board Small  parchment
+  - complete-particles
+  - wall
+  - TextBTN_Big_Pressed
+  - run_icon
+  - icons8-lock-64
+  - star of dawn
+  - Coin
+  - stone-back-rect
+  - TextBTN_Big
+  - collect-halo
+  m_RenderDataMap: {}
+  m_Tag: UI Sprite Atlas
+  m_IsVariant: 0

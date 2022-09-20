@@ -1,0 +1,37 @@
+Прыжок В Небо: 3D Паркур
+Jump to Sky: 3D Parcour
+----------------------------------------------------------------------------------------------
+Первая игра от первого лица про паркур в небе прямо в браузере!
+Тебя ждут продуманные 3d уровни из блоков и платформ, скорость и настоящий хардкор.
+Испытай свою ловкость бегом и прыжками над пропастью, и не смотри вниз!
+The first first-person game about parkour in the sky right in your browser!
+Thoughtful 3d levels of blocks and platforms, speed and real hardcore are waiting for you.
+Test your agility by running and jumping over an abyss, and don't look down!
+----------------------------------------------------------------------------------------------
+Приготовьтесь к паркуру!
+
+"Прыжок В Небо: 3D Паркур" - аркада от первого лица в мире парящих островов.
+
+На вашем пути встанут продуманные 3d уровни из блоков и платформ, висящих над пропастью.
+
+Доберитесь до портала на следующий уровень, и постарайтесь не упасть вниз.
+Get ready for parkour!
+
+Jump Into the Sky: 3D Parkour is a first-person arcade game set in the world of floating islands.
+
+Thoughtful 3d levels of blocks and platforms hanging over an abyss will stand in your way.
+
+Get to the portal to the next level, and try not to fall down.
+----------------------------------------------------------------------------------------------
+Управление:
+Пробел - прыжок
+ЦФЫВ (WASD) - перемещение
+SHIFT - бег
+Дважды Escape - меню
+Движение мышью - вращение камеры
+Controls:
+WASD - move
+Space - jump
+SHIFT - run
+Double Escape - Menu
+Mouse movement - rotation of the camera
