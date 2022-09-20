@@ -1,4 +1,6 @@
 ﻿using System;
+using Analytics.adapter;
+using Analytics.playeractions;
 using Doozy.Engine;
 using UnityEngine;
 using UnityEngine.Events;
@@ -7,6 +9,7 @@ using Zenject;
 public class Jump : MonoBehaviour
 {
     [Inject] private IJumpInputProvider jumpInputProvider;
+    [Inject] private AnalyticsAdapter analytics;
     Rigidbody myRigidbody;
     public float jumpStrength = 2;
     public event Action Jumped;
@@ -45,6 +48,7 @@ public class Jump : MonoBehaviour
         myRigidbody.AddForce(Vector3.up * 100 * jumpStrength);
         Jumped?.Invoke();
         GameEventMessage.Send(JumpedMessage);
+        analytics.SendActionEvent(PlayerAction.Jump);
     }
 
     public void SetExtraJumpsCount(int count)
