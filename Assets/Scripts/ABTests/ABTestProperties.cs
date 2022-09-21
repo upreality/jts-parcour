@@ -1,54 +1,58 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using ABTests;
+using ABTests.domain;
 using Plugins.FileIO;
 using UniRx;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class ABTestProperties : MonoBehaviour, IABTestPropertyStateRepository
+namespace ABTests
 {
-    [SerializeField] private List<ABTestProperty> properties = new();
-
-    private void Start()
+    public class ABTestProperties : MonoBehaviour, IABTestPropertyStateRepository
     {
-        Debug.Log("Checking session storage ab test props");
-        properties.Where(IsSupported).ToList().ForEach(ApplyProperty);
-    }
+        [SerializeField] private List<ABTestProperty> properties = new();
 
-    public void HandleProperty(string propName)
-    {
-        if (!FindProperty(propName, out var property)) return;
-        ApplyProperty(property);
-    }
+        private void Start()
+        {
+            Debug.Log("Checking session storage ab test props");
+            properties.Where(IsSupported).ToList().ForEach(ApplyProperty);
+        }
 
-    IObservable<bool> IABTestPropertyStateRepository.GetPropertyStateFlow(string propName) =>
-        !FindProperty(propName, out var property) ? Observable.Return(false) : property.enabledState;
+        public void SetPropertyEnabled(string propName)
+        {
+            if (!FindProperty(propName, out var property)) return;
+            ApplyProperty(property);
+        }
 
-    private bool FindProperty(string propName, out ABTestProperty property)
-    {
-        property = null;
-        var hasProp = properties.Any(definedProp => definedProp.propName == propName);
-        if (!hasProp) return false;
-        property = properties.First(definedProp => definedProp.propName == propName);
-        return true;
-    }
+        public IObservable<bool> GetPropertyStateFlow(string propName) => !FindProperty(propName, out var property)
+            ? Observable.Return(false)
+            : property.enabledState;
 
-    private static bool IsSupported(ABTestProperty property) => LocalStorageIO.HasSessionKey(property.propName);
+        private bool FindProperty(string propName, out ABTestProperty property)
+        {
+            property = null;
+            var hasProp = properties.Any(definedProp => definedProp.propName == propName);
+            if (!hasProp) return false;
+            property = properties.First(definedProp => definedProp.propName == propName);
+            return true;
+        }
 
-    private static void ApplyProperty(ABTestProperty property)
-    {
-        Debug.Log("ApplyProperty: " + property.propName);
-        property.enabledState.Value = true;
-        property.onApply?.Invoke();
-    }
+        private static bool IsSupported(ABTestProperty property) => LocalStorageIO.HasSessionKey(property.propName);
 
-    [Serializable]
-    private class ABTestProperty
-    {
-        public string propName;
-        public ReactiveProperty<bool> enabledState = new(false);
-        public UnityEvent onApply;
+        private static void ApplyProperty(ABTestProperty property)
+        {
+            Debug.Log("ApplyProperty: " + property.propName);
+            property.enabledState.Value = true;
+            property.onApply?.Invoke();
+        }
+
+        [Serializable]
+        private class ABTestProperty
+        {
+            public string propName;
+            public ReactiveProperty<bool> enabledState = new(false);
+            public UnityEvent onApply;
+        }
     }
 }
