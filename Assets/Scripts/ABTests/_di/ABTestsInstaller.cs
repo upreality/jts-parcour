@@ -15,6 +15,10 @@ namespace ABTests._di
             Container.Bind<IABTestPropertyStateRepository>().FromInstance(abTestProperties).AsSingle();
             Container.Bind<IABTestsRepository>().FromInstance(abTestsSoRepository).AsSingle();
             Container.Bind<IUserABTestRepository>().To<UserABTestLocalStorageRepository>().AsSingle();
+            Container.Bind<AssignABTestGroupUseCase>().AsSingle();
+            Container.Bind<AssignRandomABTestUseCase>().AsSingle();
+            Container.Bind<TryAssignABTestUseCase>().AsSingle();
+            Container.Bind<GetAssignableABTestPropertyUseCase>().AsSingle();
         }
     }
 }

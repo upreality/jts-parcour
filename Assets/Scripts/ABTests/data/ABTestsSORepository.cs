@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace ABTests.data
 {
-    [CreateAssetMenu(menuName = "ABTests/ABTestsRepository", fileName = "ABTestsRepository")]
+    [CreateAssetMenu(menuName = "ABTestsSetup/ABTestsRepository", fileName = "ABTestsRepository")]
     public class ABTestsSoRepository : ScriptableObject, IABTestsRepository
     {
         [SerializeField] private List<ABTest> tests = new();

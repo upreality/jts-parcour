@@ -8,6 +8,6 @@ namespace ABTests.domain.model
     {
         public string groupName;
         public string property;
-        [Range(0f, 1f)] public float weight = 1;
+        [Range(0f, 1f)] public float weight = 1f;
     }
 }
