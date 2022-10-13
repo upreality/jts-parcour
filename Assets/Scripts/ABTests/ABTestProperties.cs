@@ -43,6 +43,7 @@ public class ABTestProperties : MonoBehaviour, IABTestPropertyStateRepository
         Debug.Log("ApplyProperty: " + property.propName);
         property.enabledState.Value = true;
         property.onApply?.Invoke();
+        GoogleAnalyticsSDK.SendStringEvent("apply_ab_test_property", "ab_test_property_name", property.propName);
     }
 
     [Serializable]
