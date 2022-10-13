@@ -12,6 +12,7 @@ namespace Ads.InterstitialAdNavigator
         public IObservable<ShowInterstitialResult> ShowAd()
         {
 #if VK_SDK
+            return Observable.Return(new ShowInterstitialResult(false, "Banned ads for testing"));
             var interstitialShownObservable = Observable.FromEvent(
                 handler => instance.onInterstitialShown += handler,
                 handler => instance.onInterstitialShown -= handler
