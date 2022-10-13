@@ -15,7 +15,7 @@ namespace ABTests.data
             test = null;
             if (!LocalStorageIO.HasKey(ABTestKey)) return false;
             test = LocalStorageIO.GetString(ABTestKey);
-            return test.IsEmpty();
+            return !test.IsEmpty();
         }
 
         public UserABTestGroupState GetABTestGroup(string test, out string group)

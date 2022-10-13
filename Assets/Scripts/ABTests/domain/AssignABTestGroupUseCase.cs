@@ -59,7 +59,7 @@ namespace ABTests.domain
             if (selectedGroupIndex < 0 || selectedGroupIndex >= groups.Count) return GroupType.Control;
 
             group = groups[selectedGroupIndex];
-            return GroupType.Control;
+            return GroupType.Custom;
         }
 
         private enum GroupType

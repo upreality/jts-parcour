@@ -1,4 +1,3 @@
-using System;
 #if UNITY_WEBGL && !UNITY_EDITOR
 using System.Runtime.InteropServices;
 #endif
@@ -12,10 +11,24 @@ public static class GoogleAnalyticsSDK
 #endif
     }
     
-    public static void SetABGroup(string groupName)
+    public static void SendNumEvent(string eventName, string argName, int argValue)
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
-        SetABDimension(groupName);
+        SendNumArg(eventName, argName, argValue);
+#endif
+    }
+    
+    public static void SendStringEvent(string eventName, string argName, string argValue)
+    {
+#if UNITY_WEBGL && !UNITY_EDITOR
+        SendStringArg(eventName, argName, argValue);
+#endif
+    }
+    
+    public static void ActivateOptimizeEvent()
+    {
+#if UNITY_WEBGL && !UNITY_EDITOR
+        ActivateOptimize();
 #endif
     }
 
@@ -23,6 +36,10 @@ public static class GoogleAnalyticsSDK
     [DllImport("__Internal")]
     private static extern void Send(string eventName);
     [DllImport("__Internal")]
-    private static extern void SetABGroupDimension(string abGroup);
+    private static extern void SendNumArg(string eventName, string argName, int argValue);
+    [DllImport("__Internal")]
+    private static extern void SendStringArg(string eventName, string argName, string argValue);
+    [DllImport("__Internal")]
+    private static extern void ActivateOptimize();
 #endif
 }

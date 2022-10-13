@@ -9,19 +9,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 767ef36f61434b0a88cb08eb8d8dc181, type: 3}
   m_Name: ABTestsRepository
-  m_EditorClassIdentifier: Assembly-CSharp:ABTests.data:ABTestsSoRepository
+  m_EditorClassIdentifier: 
   tests:
-  - testName: 
-    weight: 0
-    controlGroupPercentage: 0
-    groups: []
-  - testName: 
-    weight: 0
-    controlGroupPercentage: 0
-    groups: []
-  - testName: 
-    weight: 0
-    controlGroupPercentage: 0
-    groups: []
+  - testName: AlwaysRun
+    weight: 1
+    controlGroupPercentage: 50
+    groups:
+    - groupName: AlwaysRunEnabled
+      property: AlwaysRun
+      weight: 1
+  - testName: DisableZoom
+    weight: 1
+    controlGroupPercentage: 50
+    groups:
+    - groupName: ZoomDisabled
+      property: DisableZoom
+      weight: 1
+  - testName: HintsBarriers
+    weight: 1
+    controlGroupPercentage: 50
+    groups:
+    - groupName: HintsAndBarriersEnabled
+      property: JumpHint
+      weight: 1

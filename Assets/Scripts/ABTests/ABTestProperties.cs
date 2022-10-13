@@ -40,12 +40,13 @@ namespace ABTests
 
         private static bool IsSupported(ABTestProperty property) => LocalStorageIO.HasSessionKey(property.propName);
 
-        private static void ApplyProperty(ABTestProperty property)
-        {
-            Debug.Log("ApplyProperty: " + property.propName);
-            property.enabledState.Value = true;
-            property.onApply?.Invoke();
-        }
+    private static void ApplyProperty(ABTestProperty property)
+    {
+        Debug.Log("ApplyProperty: " + property.propName);
+        property.enabledState.Value = true;
+        property.onApply?.Invoke();
+        GoogleAnalyticsSDK.SendStringEvent("apply_ab_test_property", "ab_test_property_name", property.propName);
+    }
 
         [Serializable]
         private class ABTestProperty
