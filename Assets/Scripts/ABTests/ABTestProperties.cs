@@ -15,6 +15,7 @@ public class ABTestProperties : MonoBehaviour, IABTestPropertyStateRepository
     {
         Debug.Log("Checking session storage ab test props");
         properties.Where(IsSupported).ToList().ForEach(ApplyProperty);
+        GoogleAnalyticsSDK.ActivateOptimizeEvent();
     }
 
     public void HandleProperty(string propName)

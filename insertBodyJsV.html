@@ -4,6 +4,8 @@
             window.unityInstance.SendMessage('ABTestProperties', 'HandleProperty', propName);
         }
         window.sessionStorage.setItem('prop' + propName, 'enabled');
+		// Sends the custom dimension to Google Analytics.
+		gtag('event', 'setupAbTestProp', {'ABTestGroup': propName});
     }
 </script>
 

@@ -2,46 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11d22b23-94c9-40b9-8d18-1be45c1b03ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/googleAnalytics.jslib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/googleAnalytics.jslib.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ABTests.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ABTests/ABTestPropertyStateListener.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ABTests/ABTestPropertyStateListener.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ABTests/ABTestsInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ABTests/ABTestsInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ABTests/IABTestPropertyStateRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ABTests/IABTestPropertyStateRepository.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Analytics/adapter/GoogleAnalyticsAdapter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Analytics/adapter/GoogleAnalyticsAdapter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.yg-parcour/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.yg-parcour/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMenuItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMenuItems.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Editor/Nody/Settings/NodyWindowSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Editor/Nody/Settings/NodyWindowSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIView/_UIViewDatabase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIView/_UIViewDatabase.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/DoozySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/DoozySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalAssets/Mini First Person Controller/Scripts/Components/Zoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalAssets/Mini First Person Controller/Scripts/Components/Zoom.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalAssets/Mini First Person Controller/Scripts/FirstPersonMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalAssets/Mini First Person Controller/Scripts/FirstPersonMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FileIO/FileIO.jslib" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FileIO/FileIO.jslib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FileIO/LocalStorageIO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FileIO/LocalStorageIO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/VKSDK/VKSDK.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/VKSDK/VKSDK.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Levels/Level (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Levels/Level (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Analytics/Analytics.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Analytics/Analytics.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Analytics/Editor/AnalyticsType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Analytics/Editor/AnalyticsType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Analytics/Editor/SwitchAnalyticsSDK.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Analytics/Editor/SwitchAnalyticsSDK.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Analytics/_di/AnalyticsInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Analytics/_di/AnalyticsInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MobileInputDebug.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MobileInputDebug.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SDK/Editor/FillWgl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SDK/Editor/FillWgl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Social/InviteButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Social/InviteButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Social/ShareButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Social/ShareButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/GoogleAnalyticsSDK.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/GoogleAnalyticsSDK.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/googleAnalytics.jslib" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/googleAnalytics.jslib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/googleAnalytics.jslib.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/googleAnalytics.jslib.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ABTests/ABTestProperties.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ABTests/ABTestProperties.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/insertBodyJsV.html" beforeDir="false" afterPath="$PROJECT_DIR$/insertBodyJsV.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insertHeadJsG.html" beforeDir="false" afterPath="$PROJECT_DIR$/insertHeadJsG.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Downloads/520_it7_market_debug_source_from_JADX",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Downloads/520_it7_market_debug_source_from_JADX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\Unity\yg-parcour" />
@@ -89,6 +61,8 @@
       <workItem from="1663603582277" duration="52000" />
       <workItem from="1663603643403" duration="2020000" />
       <workItem from="1663679323209" duration="31000" />
+      <workItem from="1664999707068" duration="1452000" />
+      <workItem from="1665390854878" duration="197000" />
     </task>
     <servers />
   </component>

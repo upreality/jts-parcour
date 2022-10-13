@@ -10,9 +10,18 @@ public static class GoogleAnalyticsSDK
         Send(eventName);
 #endif
     }
+    
+    public static void ActivateOptimizeEvent()
+    {
+#if UNITY_WEBGL && !UNITY_EDITOR
+        ActivateOptimize();
+#endif
+    }
 
 #if UNITY_WEBGL && !UNITY_EDITOR
     [DllImport("__Internal")]
     private static extern void Send(string eventName);
+    [DllImport("__Internal")]
+    private static extern void ActivateOptimize();
 #endif
 }
