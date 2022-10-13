@@ -61,6 +61,8 @@ namespace Ads._di
                 .FromInstance(muteAudioInterstitialAdNavigatorDecorator)
                 .AsSingle()
                 .WhenInjectedInto<InterstitialAdNavigatorCounterDecorator>();
+            
+            GoogleAnalyticsSDK.SendEvent("no_ads");
         }
     }
 }
