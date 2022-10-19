@@ -1442,24 +1442,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   properties:
-  - propName: AlwaysRun
-    enabledState:
-      value: 0
-    onApply:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1108176291}
-          m_TargetAssemblyTypeName: FirstPersonMovement, Assembly-CSharp
-          m_MethodName: SetAlwaysRun
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
   - propName: DisableZoom
     enabledState:
       value: 0
@@ -2015,18 +1997,6 @@ Rigidbody:
     type: 3}
   m_PrefabInstance: {fileID: 1651423022}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1108176291 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4967360313056931199, guid: 0b5633ffafe83d14c972b01f08e08286,
-    type: 3}
-  m_PrefabInstance: {fileID: 1651423022}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97fca36bd81de7c4cafce7bbf02ca611, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1114869300 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5978549586110143547, guid: f1935759df9af8e43ad56713544adc20,
