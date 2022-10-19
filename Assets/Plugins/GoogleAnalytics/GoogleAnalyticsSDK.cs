@@ -14,7 +14,7 @@ public static class GoogleAnalyticsSDK
     public static void SendNumEvent(string eventName, string argName, int argValue)
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
-        SendNumArg(eventName, argName, argValue);
+        SendNumArg(eventName, argName, argValue.ToString());
 #endif
     }
     
@@ -36,7 +36,7 @@ public static class GoogleAnalyticsSDK
     [DllImport("__Internal")]
     private static extern void Send(string eventName);
     [DllImport("__Internal")]
-    private static extern void SendNumArg(string eventName, string argName, int argValue);
+    private static extern void SendNumArg(string eventName, string argName, string argValue);
     [DllImport("__Internal")]
     private static extern void SendStringArg(string eventName, string argName, string argValue);
     [DllImport("__Internal")]
