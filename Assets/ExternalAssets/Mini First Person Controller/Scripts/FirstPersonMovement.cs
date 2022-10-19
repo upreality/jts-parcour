@@ -13,8 +13,7 @@ public class FirstPersonMovement : MonoBehaviour
     public float speedMultiplier = 1;
 
     [Header("Running")] public bool canRun = true;
-    [Header("Running")] public RunningMode runningMode = RunningMode.Default;
-    public bool IsRunning { get; private set; }
+    public bool IsRunning = false;
     public float runSpeed = 9;
 
     Rigidbody m_rigidbody;
@@ -32,11 +31,7 @@ public class FirstPersonMovement : MonoBehaviour
     {
         // Update IsRunning from input.
         if (check.isGrounded)
-        {
-            IsRunning = runningMode == RunningMode.Default
-                ? inputProvider.GetRunningInput()
-                : runningMode == RunningMode.AlwaysRun;
-        }
+            IsRunning = inputProvider.GetRunningInput();
 
         // Get targetMovingSpeed.
         var targetMovingSpeed = IsRunning ? runSpeed : speed;
@@ -85,17 +80,6 @@ public class FirstPersonMovement : MonoBehaviour
     }
 
     public void SetSpeedMul(float mul) => speedMultiplier = mul;
-
-    public void SetAlwaysRun() => runningMode = RunningMode.AlwaysRun;
-    public void SetRunDisabled() => runningMode = RunningMode.RunDisabled;
-    public void SetRunDefault() => runningMode = RunningMode.Default;
-
-    public enum RunningMode
-    {
-        AlwaysRun,
-        RunDisabled,
-        Default
-    }
 
     public interface IMovementInputProvider
     {
