@@ -33,10 +33,4 @@
 		console.log('Activate optimize event error ' + e);
 	}
   }
-  
-  SetABGroupDimension: function(abGroup) {
-      var abGroupText = UTF8ToString(abGroup);
-      console.log('GA set AB dimension: ' + abGroupText);
-      gtag('event', 'apply_dimension', { 'ab_test_group': abGroupText });
-  }
 });
