@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 644712076}
-  m_IndirectSpecularColor: {r: 0.5685536, g: 0.82241535, b: 0.85033023, a: 1}
+  m_IndirectSpecularColor: {r: 0.5685536, g: 0.82241523, b: 0.8503299, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1482,43 +1482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e61aa5ad3d0f804585e64abc9f34258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  properties:
-  - propName: DisableZoom
-    enabledState:
-      value: 0
-    onApply:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1576318229}
-          m_TargetAssemblyTypeName: Zoom, Assembly-CSharp
-          m_MethodName: ResetZoom
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 1576318229}
-          m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-          m_MethodName: set_enabled
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - propName: JumpHint
-    enabledState:
-      value: 0
-    onApply:
-      m_PersistentCalls:
-        m_Calls: []
+  properties: []
 --- !u!4 &853037243
 Transform:
   m_ObjectHideFlags: 0
@@ -2357,18 +2321,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec72980442fddac4d86e75ab24b4d027, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1576318229 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4963694200071388465, guid: 0b5633ffafe83d14c972b01f08e08286,
-    type: 3}
-  m_PrefabInstance: {fileID: 1651423022}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 780f90e951d635f439326ea715cd97e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1604446272
