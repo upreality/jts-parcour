@@ -13,24 +13,19 @@ MonoBehaviour:
   m_Name: ABTestsRepository
   m_EditorClassIdentifier: 
   tests:
-  - testName: AlwaysRun
+  - testName: Disables AB Test
     weight: 1
     controlGroupPercentage: 50
     groups:
-    - groupName: AlwaysRunEnabled
+    - groupName: Sea
       property: AlwaysRun
-      weight: 1
-  - testName: DisableZoom
-    weight: 1
-    controlGroupPercentage: 50
-    groups:
-    - groupName: ZoomDisabled
-      property: DisableZoom
-      weight: 1
+    - groupName: Birds
+      property: AlwaysRun
+    - groupName: Clouds
+      property: AlwaysRun
   - testName: HintsBarriers
     weight: 1
     controlGroupPercentage: 50
     groups:
     - groupName: HintsAndBarriersEnabled
       property: JumpHint
-      weight: 1

@@ -1482,7 +1482,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e61aa5ad3d0f804585e64abc9f34258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  properties: []
+  properties:
+  - propName: DisableSea
+    onApply:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1454609203998466965}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - propName: DisableBirds
+    onApply:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 337657038}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: 
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - propName: DisableClouds
+    onApply:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7857965930104104010}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: 
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &853037243
 Transform:
   m_ObjectHideFlags: 0
@@ -3244,6 +3292,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1454609203998466963}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1454609203998466965 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1454609203063839142, guid: fac072217846a514b9652f91c5598b19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1454609203998466963}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3389908432898477686
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3609,6 +3663,12 @@ PrefabInstance:
 --- !u!4 &7857965930104104009 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3402530671692554819, guid: 503ca447565b1d94cb9d9eb49f98d527,
+    type: 3}
+  m_PrefabInstance: {fileID: 7857965930104104008}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7857965930104104010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1560230751727402568, guid: 503ca447565b1d94cb9d9eb49f98d527,
     type: 3}
   m_PrefabInstance: {fileID: 7857965930104104008}
   m_PrefabAsset: {fileID: 0}
