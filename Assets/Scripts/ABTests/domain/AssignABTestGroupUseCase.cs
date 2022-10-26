@@ -23,12 +23,13 @@ namespace ABTests.domain
             }
 
             var groups = test.groups;
-            var summaryWeight = groups.Sum(group => group.weight);
-            if (summaryWeight == 0)
-            {
-                userABTestRepository.SetABTestControlGroup(test.testName);
-                return;
-            }
+            
+            // var summaryWeight = groups.Sum(group => group.weight);
+            // if (summaryWeight == 0)
+            // {
+            //     userABTestRepository.SetABTestControlGroup(test.testName);
+            //     return;
+            // }
 
             var groupType = GetGroup(test, out var selectedGroup);
             switch (groupType)
@@ -47,15 +48,19 @@ namespace ABTests.domain
         private static GroupType GetGroup(ABTest test, out ABTestGroup group)
         {
             group = null;
+            var groups = test.groups;
+            
             var controlGroupPercentage = test.controlGroupPercentage;
             var controlPointer = Random.Range(0, 100) + 1;
-            if (controlGroupPercentage == 100 || controlPointer > controlGroupPercentage) return GroupType.Control;
+            if (controlGroupPercentage == 100 || controlPointer > controlGroupPercentage || groups.Count == 0) 
+                return GroupType.Control;
 
-            var groups = test.groups;
-            var selectedGroupIndex = groups
-                .Select(testGroup => Mathf.Max(0f, testGroup.weight))
-                .ToList()
-                .GetRandomWeightedIndex();
+            // var selectedGroupIndex = groups
+            //     .Select(testGroup => Mathf.Max(0f, testGroup.weight))
+            //     .ToList()
+            //     .GetRandomWeightedIndex();
+            var selectedGroupIndex = Random.Range(0, groups.Count);
+            
             if (selectedGroupIndex < 0 || selectedGroupIndex >= groups.Count) return GroupType.Control;
 
             group = groups[selectedGroupIndex];

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using ABTests.domain;
+using ABTests.domain.repositories;
 using Plugins.FileIO;
 using UniRx;
 using UnityEngine;
@@ -12,12 +12,6 @@ namespace ABTests
     public class ABTestProperties : MonoBehaviour, IABTestPropertyStateRepository
     {
         [SerializeField] private List<ABTestProperty> properties = new();
-
-        private void Start()
-        {
-            Debug.Log("Checking session storage ab test props");
-            properties.Where(IsSupported).ToList().ForEach(ApplyProperty);
-        }
 
         public void SetPropertyEnabled(string propName)
         {
@@ -38,21 +32,19 @@ namespace ABTests
             return true;
         }
 
-        private static bool IsSupported(ABTestProperty property) => LocalStorageIO.HasSessionKey(property.propName);
-
-    private static void ApplyProperty(ABTestProperty property)
-    {
-        Debug.Log("ApplyProperty: " + property.propName);
-        property.enabledState.Value = true;
-        property.onApply?.Invoke();
-        GoogleAnalyticsSDK.SendStringEvent("apply_ab_test_property", "ab_test_property_name", property.propName);
-    }
+        private static void ApplyProperty(ABTestProperty property)
+        {
+            Debug.Log("ApplyProperty: " + property.propName);
+            property.enabledState.Value = true;
+            property.onApply?.Invoke();
+            GoogleAnalyticsSDK.SendStringEvent("apply_ab_test_property", "ab_test_property_setup", property.propName);
+        }
 
         [Serializable]
         private class ABTestProperty
         {
             public string propName;
-            public ReactiveProperty<bool> enabledState = new(false);
+            [NonSerialized] public ReactiveProperty<bool> enabledState = new(false);
             public UnityEvent onApply;
         }
     }

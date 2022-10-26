@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using ABTests.domain;
+﻿using System.Collections.Generic;
 using ABTests.domain.model;
 using ABTests.domain.repositories;
-using UniRx;
 using UnityEngine;
 
 namespace ABTests.data

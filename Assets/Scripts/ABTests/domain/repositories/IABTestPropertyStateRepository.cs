@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ABTests.domain
+namespace ABTests.domain.repositories
 {
     public interface IABTestPropertyStateRepository
     {
