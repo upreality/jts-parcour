@@ -11,7 +11,7 @@
 	  var arv = UTF8ToString(argValue);
       console.log('GA send event ' + me + ' ' + ar + '=' + arv);
       gtag('event', me, {
-		ar: argValue
+		[ar]: parseInt(arv, 10)
 	  });
   },
   
@@ -21,7 +21,7 @@
 	  var arv = UTF8ToString(argValue);
       console.log('GA send event ' + me + ' ' + ar + '=' + arv);
       gtag('event', me, {
-		ar: arv
+		[ar]: arv
 	  });
   },
 
