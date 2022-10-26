@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 
 namespace ABTests.domain.model
 {
@@ -7,6 +8,6 @@ namespace ABTests.domain.model
     {
         public string groupName;
         public string property;
-        // [Range(0f, 1f)] public float weight = 1f;
+        [Range(0f, 1f)] public float weight = 1f;
     }
 }

@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using ABTests.domain.repositories;
-using Plugins.FileIO;
 using UniRx;
 using UnityEngine;
 using UnityEngine.Events;
@@ -15,8 +14,13 @@ namespace ABTests
 
         public void SetPropertyEnabled(string propName)
         {
-            if (!FindProperty(propName, out var property)) return;
-            ApplyProperty(property);
+            if (FindProperty(propName, out var property))
+            {
+                ApplyProperty(property);
+                return;
+            }
+
+            Debug.LogError($"AB test property \'{property.propName}\'not found");
         }
 
         public IObservable<bool> GetPropertyStateFlow(string propName) => !FindProperty(propName, out var property)

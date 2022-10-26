@@ -4,21 +4,15 @@
     <list default="true" id="11d22b23-94c9-40b9-8d18-1be45c1b03ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/GoogleAnalyticsSDK.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/GoogleAnalyticsSDK.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/googleAnalytics.jslib" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/googleAnalytics.jslib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/googleAnalytics.jslib.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GoogleAnalytics/googleAnalytics.jslib.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ABTests/ABTestProperties.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ABTests/ABTestProperties.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insertBodyJsV.html" beforeDir="false" afterPath="$PROJECT_DIR$/insertBodyJsV.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insertHeadJsG.html" beforeDir="false" afterPath="$PROJECT_DIR$/insertHeadJsG.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +57,8 @@
       <workItem from="1663679323209" duration="31000" />
       <workItem from="1664999707068" duration="1452000" />
       <workItem from="1665390854878" duration="197000" />
+      <workItem from="1666342330718" duration="1418000" />
+      <workItem from="1666704049022" duration="18000" />
     </task>
     <servers />
   </component>

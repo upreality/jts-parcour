@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 644712076}
-  m_IndirectSpecularColor: {r: 0.5685536, g: 0.82241523, b: 0.8503299, a: 1}
+  m_IndirectSpecularColor: {r: 0.5685536, g: 0.82241535, b: 0.85033023, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -853,6 +853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af64d23ef5b6a2e44b2b2bf62e75a743, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  showInterval: 1
 --- !u!4 &579498440
 Transform:
   m_ObjectHideFlags: 0
@@ -1505,7 +1506,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 337657038}
           m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: 
+          m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1521,12 +1522,80 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 7857965930104104010}
           m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: 
+          m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - propName: DoubleDieAdInterval
+    onApply:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 579498439}
+          m_TargetAssemblyTypeName: Ads.presentation.InterstitialAdNavigator.decorators.InterstitialAdNavigatorCounterDecorator,
+            Assembly-CSharp
+          m_MethodName: SetShowInterval
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - propName: TripleDieAdInterval
+    onApply:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 579498439}
+          m_TargetAssemblyTypeName: Ads.presentation.InterstitialAdNavigator.decorators.InterstitialAdNavigatorCounterDecorator,
+            Assembly-CSharp
+          m_MethodName: SetShowInterval
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - propName: DoubleCompletionAdInterval
+    onApply:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1736482140}
+          m_TargetAssemblyTypeName: Ads.presentation.InterstitialAdNavigator.decorators.InterstitialAdNavigatorCounterDecorator,
+            Assembly-CSharp
+          m_MethodName: SetShowInterval
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - propName: TripleCompletionAdInterval
+    onApply:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1736482140}
+          m_TargetAssemblyTypeName: Ads.presentation.InterstitialAdNavigator.decorators.InterstitialAdNavigatorCounterDecorator,
+            Assembly-CSharp
+          m_MethodName: SetShowInterval
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
@@ -2259,8 +2328,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaf6ca9531eaed846bcef83e3c5bff76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieCounterNavigator: {fileID: 579498439}
-  levelLoadedCounterNavigator: {fileID: 1736482140}
   interstitialAdNavigatorLockLookDecorator: {fileID: 507371599}
   muteAudioInterstitialAdNavigatorDecorator: {fileID: 566049976}
 --- !u!114 &1425927133
@@ -2707,6 +2774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af64d23ef5b6a2e44b2b2bf62e75a743, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  showInterval: 1
 --- !u!4 &1736482141
 Transform:
   m_ObjectHideFlags: 0

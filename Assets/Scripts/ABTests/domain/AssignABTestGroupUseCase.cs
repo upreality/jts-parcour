@@ -15,56 +15,47 @@ namespace ABTests.domain
 
         public void Assign(ABTest test)
         {
-            var controlGroupPercent = Random.Range(0, 100) + 1;
-            if (test.controlGroupPercentage == 100 || controlGroupPercent > test.controlGroupPercentage)
+            if (GetGroup(test, out var selectedGroup) == GroupType.Custom)
             {
-                userABTestRepository.SetABTestControlGroup(test.testName);
+                SetGroup(test.testName, selectedGroup.groupName);
                 return;
             }
 
-            var groups = test.groups;
-            
-            // var summaryWeight = groups.Sum(group => group.weight);
-            // if (summaryWeight == 0)
-            // {
-            //     userABTestRepository.SetABTestControlGroup(test.testName);
-            //     return;
-            // }
-
-            var groupType = GetGroup(test, out var selectedGroup);
-            switch (groupType)
-            {
-                case GroupType.Control:
-                    userABTestRepository.SetABTestControlGroup(test.testName);
-                    break;
-                case GroupType.Custom:
-                    userABTestRepository.SetABTestGroup(test.testName, selectedGroup.groupName);
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException();
-            }
+            SetControlGroup(test.testName);
         }
 
         private static GroupType GetGroup(ABTest test, out ABTestGroup group)
         {
             group = null;
             var groups = test.groups;
-            
+
             var controlGroupPercentage = test.controlGroupPercentage;
             var controlPointer = Random.Range(0, 100) + 1;
-            if (controlGroupPercentage == 100 || controlPointer > controlGroupPercentage || groups.Count == 0) 
+            if (controlGroupPercentage == 100 || controlPointer < controlGroupPercentage || groups.Count == 0)
                 return GroupType.Control;
 
-            // var selectedGroupIndex = groups
-            //     .Select(testGroup => Mathf.Max(0f, testGroup.weight))
-            //     .ToList()
-            //     .GetRandomWeightedIndex();
-            var selectedGroupIndex = Random.Range(0, groups.Count);
+            var selectedGroupIndex = groups
+                .Select(testGroup => Mathf.Max(0f, testGroup.weight))
+                .ToList()
+                .GetRandomWeightedIndex();
             
-            if (selectedGroupIndex < 0 || selectedGroupIndex >= groups.Count) return GroupType.Control;
+            if (selectedGroupIndex < 0 || selectedGroupIndex >= groups.Count) 
+                return GroupType.Control;
 
             group = groups[selectedGroupIndex];
             return GroupType.Custom;
+        }
+
+        private void SetControlGroup(string testName)
+        {
+            userABTestRepository.SetABTestControlGroup(testName);
+            Debug.Log($"Assigned test {testName} with Control group");
+        }
+
+        private void SetGroup(string testName, string groupName)
+        {
+            userABTestRepository.SetABTestGroup(testName, groupName);
+            Debug.Log($"Assigned test {testName} with group {groupName}");
         }
 
         private enum GroupType

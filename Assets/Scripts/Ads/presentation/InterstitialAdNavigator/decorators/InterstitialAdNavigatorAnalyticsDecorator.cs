@@ -1,9 +1,9 @@
 using System;
-using Analytics;
 using Analytics.adapter;
 using Analytics.ads;
 using Analytics.ads.placement;
 using UniRx;
+using UnityEngine;
 using Zenject;
 
 namespace Ads.presentation.InterstitialAdNavigator.decorators
@@ -24,10 +24,13 @@ namespace Ads.presentation.InterstitialAdNavigator.decorators
 
         private void HandleShowResult(ShowInterstitialResult result)
         {
-            if (!result.isSuccess)
-                OnFailed(result.error);
-            else
+            if (result.isSuccess)
+            {
                 OnShown();
+                return;
+            }
+
+            OnFailed(result.error);
         }
 
         private void OnShown() => SendEvent(AdAction.Show);

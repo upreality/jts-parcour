@@ -15,17 +15,30 @@ MonoBehaviour:
   tests:
   - testName: Disables AB Test
     weight: 1
-    controlGroupPercentage: 50
+    controlGroupPercentage: 25
     groups:
     - groupName: Sea
-      property: AlwaysRun
+      property: DisableSea
+      weight: 1
     - groupName: Birds
-      property: AlwaysRun
+      property: DisableBirds
+      weight: 1
     - groupName: Clouds
-      property: AlwaysRun
-  - testName: HintsBarriers
+      property: DisableClouds
+      weight: 1
+  - testName: Ad Intervals AB Test
     weight: 1
-    controlGroupPercentage: 50
+    controlGroupPercentage: 20
     groups:
-    - groupName: HintsAndBarriersEnabled
-      property: JumpHint
+    - groupName: Die2
+      property: DoubleDieAdInterval
+      weight: 1
+    - groupName: Die3
+      property: TripleDieAdInterval
+      weight: 1
+    - groupName: Complete2
+      property: DoubleCompletionAdInterval
+      weight: 1
+    - groupName: Complete3
+      property: TripleDoubleCompletionAdInterval
+      weight: 1

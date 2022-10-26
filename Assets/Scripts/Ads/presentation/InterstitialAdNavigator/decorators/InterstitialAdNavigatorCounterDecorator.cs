@@ -8,31 +8,27 @@ namespace Ads.presentation.InterstitialAdNavigator.decorators
     public class InterstitialAdNavigatorCounterDecorator : MonoBehaviour, IInterstitalAdNavigator
     {
         [Inject] private IInterstitalAdNavigator adNavigator;
-        //TODO: replace with di
-        private readonly IInterstitialShowIntervalProvider intervalProvider = new NoIntervalInterstitialShowIntervalProvider();
-        private int invokeTimes;
-        private int showInterval = 1;
 
-        private void Start()
-        {
-            intervalProvider
-                .GetShowInterval()
-                .Subscribe(interval => showInterval = interval)
-                .AddTo(this);
-        }
+        [SerializeField]
+        private int showInterval = 1;
+        private int invokeTimes;
 
         public IObservable<ShowInterstitialResult> ShowAd()
         {
-            if (showInterval == 0)
-                return Observable.Return(new ShowInterstitialResult(false, "zero show interval"));
+            if (showInterval < 1)
+                return Observable.Return(new ShowInterstitialResult(false, "zero or less show interval"));
 
             invokeTimes++;
             if (invokeTimes < showInterval)
-                Observable.Return(new ShowInterstitialResult(false, "period not reached"));
+                return Observable.Return(new ShowInterstitialResult(false, "period not reached"));
 
             invokeTimes = 0;
+            
+            Debug.LogWarning($"Shown ad");
             return adNavigator.ShowAd();
         }
+
+        public void SetShowInterval(int interval) => showInterval = interval;
 
         public interface IInterstitialShowIntervalProvider
         {

@@ -1,5 +1,4 @@
 using Ads.InterstitialAdNavigator;
-using Ads.presentation.InterstitialAdNavigator.core;
 using Ads.presentation.InterstitialAdNavigator.decorators;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -9,12 +8,7 @@ namespace Ads._di
 {
     public class AdsInstaller : MonoInstaller
     {
-        [SerializeField] private InterstitialAdNavigatorCounterDecorator dieCounterNavigator;
-        [SerializeField] private InterstitialAdNavigatorCounterDecorator levelLoadedCounterNavigator;
-
-        [FormerlySerializedAs("lockLookInterstitialAdNavigatorDecorator")] [SerializeField]
-        private InterstitialAdNavigatorLockLookDecorator interstitialAdNavigatorLockLookDecorator;
-
+        [SerializeField] private InterstitialAdNavigatorLockLookDecorator interstitialAdNavigatorLockLookDecorator;
         [SerializeField] private InterstitialAdNavigatorMuteAudioDecorator muteAudioInterstitialAdNavigatorDecorator;
 
         public override void InstallBindings()
