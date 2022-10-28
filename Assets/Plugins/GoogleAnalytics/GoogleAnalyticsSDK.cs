@@ -24,13 +24,6 @@ public static class GoogleAnalyticsSDK
         SendStringArg(eventName, argName, argValue);
 #endif
     }
-    
-    public static void ActivateOptimizeEvent()
-    {
-#if UNITY_WEBGL && !UNITY_EDITOR
-        ActivateOptimize();
-#endif
-    }
 
 #if UNITY_WEBGL && !UNITY_EDITOR
     [DllImport("__Internal")]
@@ -39,7 +32,5 @@ public static class GoogleAnalyticsSDK
     private static extern void SendNumArg(string eventName, string argName, string argValue);
     [DllImport("__Internal")]
     private static extern void SendStringArg(string eventName, string argName, string argValue);
-    [DllImport("__Internal")]
-    private static extern void ActivateOptimize();
 #endif
 }

@@ -23,14 +23,5 @@
       gtag('event', me, {
 		[ar]: arv
 	  });
-  },
-
-  ActivateOptimize: function() {
-    console.log('Activate optimize event');
-	try {
-		dataLayer.push({'event': 'optimize.activate'});
-	} catch(e) { 
-		console.log('Activate optimize event error ' + e);
-	}
   }
 });
