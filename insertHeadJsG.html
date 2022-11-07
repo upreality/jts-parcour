@@ -4,7 +4,11 @@
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
-		gtag('config', 'G-YSW25FYN5D', { cookie_flags: 'SameSite=None;Secure' });
+		gtag('config', 'G-YSW25FYN5D', {
+			'custom_map': {'dimension2': 'ab_test_property_setup'},
+			'cookie_flags': 'SameSite=None;Secure'
+			}
+		);
 	</script>
 	<script>
 		window.onerror = function(message, source, lineno, colno, error) {

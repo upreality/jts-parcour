@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 644712076}
-  m_IndirectSpecularColor: {r: 0.5685536, g: 0.82241535, b: 0.85033023, a: 1}
+  m_IndirectSpecularColor: {r: 0.56855375, g: 0.8224155, b: 0.85033035, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1483,123 +1483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e61aa5ad3d0f804585e64abc9f34258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  properties:
-  - propName: DisableSea
-    onApply:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1454609203998466965}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - propName: DisableBirds
-    onApply:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 337657038}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - propName: DisableClouds
-    onApply:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 7857965930104104010}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - propName: DoubleDieAdInterval
-    onApply:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 579498439}
-          m_TargetAssemblyTypeName: Ads.presentation.InterstitialAdNavigator.decorators.InterstitialAdNavigatorCounterDecorator,
-            Assembly-CSharp
-          m_MethodName: SetShowInterval
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 2
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - propName: TripleDieAdInterval
-    onApply:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 579498439}
-          m_TargetAssemblyTypeName: Ads.presentation.InterstitialAdNavigator.decorators.InterstitialAdNavigatorCounterDecorator,
-            Assembly-CSharp
-          m_MethodName: SetShowInterval
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 3
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - propName: DoubleCompletionAdInterval
-    onApply:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1736482140}
-          m_TargetAssemblyTypeName: Ads.presentation.InterstitialAdNavigator.decorators.InterstitialAdNavigatorCounterDecorator,
-            Assembly-CSharp
-          m_MethodName: SetShowInterval
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 2
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - propName: TripleCompletionAdInterval
-    onApply:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1736482140}
-          m_TargetAssemblyTypeName: Ads.presentation.InterstitialAdNavigator.decorators.InterstitialAdNavigatorCounterDecorator,
-            Assembly-CSharp
-          m_MethodName: SetShowInterval
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 3
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  properties: []
 --- !u!4 &853037243
 Transform:
   m_ObjectHideFlags: 0
@@ -1639,6 +1523,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1073346344}
+    - target: {fileID: 1261427684325523552, guid: 04c188d70605e7a4ba8ebc290357db88,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 95.72461
+      objectReference: {fileID: 0}
     - target: {fileID: 1433837459922878337, guid: 04c188d70605e7a4ba8ebc290357db88,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -1937,7 +1826,7 @@ PrefabInstance:
     - target: {fileID: 7420332639731660920, guid: 04c188d70605e7a4ba8ebc290357db88,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.00012207031
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7420332640075257231, guid: 04c188d70605e7a4ba8ebc290357db88,
         type: 3}
@@ -2774,7 +2663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af64d23ef5b6a2e44b2b2bf62e75a743, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showInterval: 1
+  showInterval: 2
 --- !u!4 &1736482141
 Transform:
   m_ObjectHideFlags: 0
@@ -3360,12 +3249,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1454609203998466963}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1454609203998466965 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1454609203063839142, guid: fac072217846a514b9652f91c5598b19,
-    type: 3}
-  m_PrefabInstance: {fileID: 1454609203998466963}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3389908432898477686
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3671,6 +3554,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Clouds
       objectReference: {fileID: 0}
+    - target: {fileID: 1560230751727402568, guid: 503ca447565b1d94cb9d9eb49f98d527,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3402530671692554819, guid: 503ca447565b1d94cb9d9eb49f98d527,
         type: 3}
       propertyPath: m_RootOrder
@@ -3731,12 +3619,6 @@ PrefabInstance:
 --- !u!4 &7857965930104104009 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3402530671692554819, guid: 503ca447565b1d94cb9d9eb49f98d527,
-    type: 3}
-  m_PrefabInstance: {fileID: 7857965930104104008}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7857965930104104010 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1560230751727402568, guid: 503ca447565b1d94cb9d9eb49f98d527,
     type: 3}
   m_PrefabInstance: {fileID: 7857965930104104008}
   m_PrefabAsset: {fileID: 0}
