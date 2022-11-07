@@ -52,7 +52,6 @@ namespace Analytics.adapter
                 ScreenAction.Close => $"screen_close_{screenName}",
                 _ => throw new ArgumentOutOfRangeException(nameof(action), action, null)
             };
-            Debug.Log("TST_LG " + eventName);
             GoogleAnalyticsSDK.SendEvent(eventName);
         }
 

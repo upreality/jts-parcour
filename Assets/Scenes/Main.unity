@@ -1866,7 +1866,7 @@ PrefabInstance:
     - target: {fileID: 8736347223398749378, guid: 04c188d70605e7a4ba8ebc290357db88,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 350.365
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04c188d70605e7a4ba8ebc290357db88, type: 3}
@@ -2961,6 +2961,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1935759df9af8e43ad56713544adc20, type: 3}
+--- !u!1 &1873023490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4164696440095536723, guid: 04c188d70605e7a4ba8ebc290357db88,
+    type: 3}
+  m_PrefabInstance: {fileID: 905554093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1873023497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873023490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb9fff0f3dc4e19478d75d5bd9fc937e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screenName: Store
 --- !u!1001 &1915484229
 PrefabInstance:
   m_ObjectHideFlags: 0
