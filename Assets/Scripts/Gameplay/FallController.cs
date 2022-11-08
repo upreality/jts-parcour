@@ -6,11 +6,9 @@ namespace Gameplay
 {
     public class FallController : MonoBehaviour
     {
-        private FirstPersonLook look;
+        [SerializeField] private MonoBehaviour look;
         [SerializeField] private float turnUpDuration = 1f;
         [SerializeField] private string fallenEvent = "Die";
-
-        private void Awake() => look = FindObjectOfType<FirstPersonLook>();
 
         private void StopFall()
         {

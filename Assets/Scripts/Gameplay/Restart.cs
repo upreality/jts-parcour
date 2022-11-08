@@ -13,6 +13,6 @@ public class Restart : MonoBehaviour
         playerObject.position = spawn.position;
         playerObject.rotation = spawn.rotation;
         Camera.localRotation = Quaternion.identity;
-        Camera.GetComponent<FirstPersonLook>().ResetLook();
+            // Camera.GetComponent<FirstPersonLook>().ResetLook();
     }
 }

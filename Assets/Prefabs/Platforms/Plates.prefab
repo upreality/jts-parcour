@@ -78,6 +78,7 @@ MonoBehaviour:
   gameEvent: 
   exitGameEvent: 
   triggerTag: Player
+  triggerOnce: 0
 --- !u!65 &5911084106594511076
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -176,8 +177,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.6749326, y: 0.5661681, z: 1.494607}
-  m_Center: {x: 0.028336942, y: -0.14294091, z: 0.046369076}
+  m_Size: {x: 1.6749326, y: 0.41842997, z: 1.494607}
+  m_Center: {x: 0.028336942, y: -0.21680993, z: 0.046369076}
 --- !u!114 &6644457280752494395
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -40,23 +40,26 @@ MonoBehaviour:
   RecentlyOpenedGraphs:
   - {fileID: 11400000, guid: 84f6d3be16f97b84bb49a4004ab542a3, type: 2}
   CopiedNodes: []
-  DeletedNodes: []
-  SelectedNodes: []
+  DeletedNodes:
+  - {fileID: -1324056849826037048, guid: 84f6d3be16f97b84bb49a4004ab542a3, type: 2}
+  - {fileID: -7561344435312543252, guid: 84f6d3be16f97b84bb49a4004ab542a3, type: 2}
+  SelectedNodes:
+  - {fileID: 86950050450208803, guid: 84f6d3be16f97b84bb49a4004ab542a3, type: 2}
   GraphTabs:
   - IsRootTab: 1
     Graph: {fileID: 11400000, guid: 84f6d3be16f97b84bb49a4004ab542a3, type: 2}
     SubGraphNode: {fileID: 0}
     Zoom: 0.6
-    PanOffset: {x: 550.5, y: 189.5}
+    PanOffset: {x: 403.63562, y: 471.78888}
     SelectedNodes: []
     DeletedNodes: []
   CurrentView: 1
-  CurrentPanOffset: {x: 354.7183, y: 334.03607}
+  CurrentPanOffset: {x: 403.63562, y: 471.78888}
   DefaultPanOffset: {x: 0, y: 0}
   IsDirty: 0
   SaveCurrentGraphWithControlS: 1
   CurrentDotAnimationSpeed: 0.6
-  CurrentZoom: 1.1
+  CurrentZoom: 0.6
   DefaultDotAnimationSpeed: 0.6
   DefaultZoom: 1
   ShowNodeNotes: 1
