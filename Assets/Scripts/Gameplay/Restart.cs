@@ -1,18 +1,29 @@
 using UnityEngine;
 
-public class Restart : MonoBehaviour
+namespace Gameplay
 {
-    [SerializeField] private Transform spawn;
-    [SerializeField] private Rigidbody playerRigidbody;
-    [SerializeField] private Transform Camera;
-
-    public void Respawn()
+    public class Restart : MonoBehaviour
     {
-        playerRigidbody.velocity = Vector3.zero;
-        var playerObject = playerRigidbody.transform;
-        playerObject.position = spawn.position;
-        playerObject.rotation = spawn.rotation;
-        Camera.localRotation = Quaternion.identity;
-            // Camera.GetComponent<FirstPersonLook>().ResetLook();
+        [SerializeField] private Transform spawn;
+        [SerializeField] private Rigidbody[] playerRigidbodies;
+        [SerializeField] private Transform[] cameras;
+
+        public void Respawn()
+        {
+            foreach (var playerRigidbody in playerRigidbodies)
+            {
+                playerRigidbody.velocity = Vector3.zero;
+                var playerObject = playerRigidbody.transform;
+                playerObject.position = spawn.position;
+                playerObject.rotation = spawn.rotation;
+            }
+        
+            foreach (var cam in cameras)
+            {
+                cam.localRotation = Quaternion.identity;
+                if (!cam.TryGetComponent<FirstPersonLook>(out var look)) continue;
+                look.ResetLook();
+            }
+        }
     }
 }
