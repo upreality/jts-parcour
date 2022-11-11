@@ -12,4 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 767ef36f61434b0a88cb08eb8d8dc181, type: 3}
   m_Name: ABTestsRepository
   m_EditorClassIdentifier: 
-  tests: []
+  tests:
+  - testName: TraderABTest
+    weight: 1
+    controlGroupPercentage: 15
+    groups:
+    - groupName: TraderEnabled
+      property: TraderEnabled
+      weight: 1
+  - testName: SuperCCFP
+    weight: 1
+    controlGroupPercentage: 15
+    groups:
+    - groupName: SuperCCFirstPerson
+      property: SuperFirstPersonController
+      weight: 1
+  - testName: JumpWindow
+    weight: 1
+    controlGroupPercentage: 15
+    groups:
+    - groupName: JumpWindowEnabled
+      property: JumpWindowEnabled
+      weight: 1

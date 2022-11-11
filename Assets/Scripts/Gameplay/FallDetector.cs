@@ -10,7 +10,6 @@ public class FallDetector : MonoBehaviour
 
     private bool fallen = false;
 
-    // Update is called once per frame
     void Update()
     {
         if (target.position.y <= fallHeight == fallen)

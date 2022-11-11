@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using ModestTree;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
@@ -1205,7 +1206,7 @@ namespace SUPERCharacter
             }
         }
 
-        private int defaultJumpCount = 3;
+        private int defaultJumpCount = 1;
         private int jumpCount = 1;
 
         [NonSerialized] public UnityEvent onJump = new();
@@ -1235,6 +1236,7 @@ namespace SUPERCharacter
             p_Rigidbody.velocity = (Vector3.right * p_Rigidbody.velocity.x) +
                                    (Vector3.forward * p_Rigidbody.velocity.z);
             p_Rigidbody.AddForce(Vector3.up * (Force / 10), ForceMode.Impulse);
+            Debug.Log("Jump with force: " + Force); 
             if (enableStaminaSystem && jumpingDepletesStamina)
             {
                 InstantStaminaReduction(s_JumpStaminaDepletion);
@@ -1356,6 +1358,16 @@ namespace SUPERCharacter
                     currentGroundMovementSpeed = GroundSpeedProfiles.Crouching;
                 }
             }
+        }
+
+        public void SetWalkingSpeed(float speed)
+        {
+            walkingSpeed = speed;
+        }
+        
+        public void SetJumpForce(float force)
+        {
+            jumpPower = force; 
         }
 
         void GetGroundInfo()

@@ -21,28 +21,49 @@ public class Jump : MonoBehaviour
     [SerializeField, Tooltip("Prevents jumping when the transform is in mid-air.")]
     GroundCheck groundCheck;
 
+    [SerializeField] private float jumpWindowTimerDefault = 0.01f;
+    [SerializeField] private float jumpWindowTimer;
+
+
+    private bool grounded = false;
+
+    public void SetDefaultJumpWindow(float window)
+    {
+        jumpWindowTimerDefault = window;
+    }
 
     void Reset()
     {
-        // Try to get groundCheck.
         groundCheck = GetComponentInChildren<GroundCheck>();
     }
 
     void Awake()
     {
-        // Get rigidbody.
         myRigidbody = GetComponent<Rigidbody>();
         extraJumps = extraJumpsLimit;
+        jumpWindowTimer = jumpWindowTimerDefault;
+    }
+
+    private void Update()
+    {
+        grounded = !groundCheck || groundCheck.isGrounded;
+        if (grounded)
+            jumpWindowTimer = jumpWindowTimerDefault;
+        else if (jumpWindowTimer > 0.01f)
+            jumpWindowTimer = Mathf.Max(0f, jumpWindowTimer - Time.deltaTime);
     }
 
     void LateUpdate()
     {
         var hasInput = jumpInputProvider.GetHasJumpInput();
-        var grounded = !groundCheck || groundCheck.isGrounded;
         if (!hasInput) return;
-        if (grounded)
+
+        if (grounded || jumpWindowTimer > 0)
+        {
             extraJumps = extraJumpsLimit;
-        else if (extraJumps-- <= 0) 
+            jumpWindowTimer = 0f;
+        }
+        else if (extraJumps-- <= 0 || jumpWindowTimer <= 0.01f)
             return;
 
         myRigidbody.AddForce(Vector3.up * 100 * jumpStrength);
@@ -55,6 +76,11 @@ public class Jump : MonoBehaviour
     {
         extraJumps = Math.Min(extraJumps, count);
         extraJumpsLimit = count;
+    }
+
+    public void SetJumpStrength(float strength)
+    {
+        jumpStrength = strength;
     }
 
     public interface IJumpInputProvider

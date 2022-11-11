@@ -1,23 +1,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BirdAIPointProvider : MonoBehaviour
+namespace Enviroment
 {
-    private List<Transform> targets = new();
-    [SerializeField] private Transform player;
-    [SerializeField, Range(0f, 1f)] private float playerPointChance = 0.05f;
-
-    private void Awake()
+    public class BirdAIPointProvider : MonoBehaviour
     {
-        foreach (Transform child in transform) targets.Add(child);
-    }
+        private List<Transform> targets = new();
+        private Transform player;
+        
+        [SerializeField, Range(0f, 1f)] private float playerPointChance = 0.05f;
 
-    public Transform GetNextTarget()
-    {
-        var playerChance = Random.Range(0f, 1f);
-        if (playerChance <= playerPointChance)
-            return player;
+        private void Awake()
+        {
+            foreach (Transform child in transform) targets.Add(child);
+            
+        }
 
-        return targets[Random.Range(0, targets.Count)];
+        public void SetPlayer(Transform playerTarget) => player = playerTarget;
+
+        public Transform GetNextTarget()
+        {
+            var playerChance = Random.Range(0f, 1f);
+            return playerChance > playerPointChance 
+                ? targets[Random.Range(0, targets.Count)] 
+                : player;
+        }
     }
 }
