@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Doozy.Engine;
 using UnityEngine;
 using UnityEngine.Events;
@@ -19,15 +20,49 @@ namespace Gameplay
 
         private bool activeState;
 
+        private readonly Queue<NextEvent> triggerEvents = new();
+
+        private void Update()
+        {
+            while (triggerEvents.Count > 0)
+            {
+                var nextEvent = triggerEvents.Dequeue();
+                if (nextEvent == NextEvent.Enter)
+                {
+                    triggerEvent?.Invoke();
+                    if(!string.IsNullOrEmpty(gameEvent)) GameEventMessage.SendEvent(gameEvent, gameObject);
+                }
+                else
+                {
+                    ExitTrigger();
+                }
+            }
+        }
+
         private void OnTriggerEnter(Collider other)
         {
             if(!other.CompareTag(triggerTag) || (triggerOnce && triggeredEnter))
                 return;
-        
-            if (triggerEvent != null) triggerEvent.Invoke();
-            if(!String.IsNullOrEmpty(gameEvent)) GameEventMessage.SendEvent(gameEvent);
+
+            triggerEvents.Enqueue(NextEvent.Enter);
             activeState = true;
             triggeredEnter = true;
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if(!other.CompareTag(triggerTag) || (triggerOnce && triggeredExit))
+                return;
+
+            triggerEvents.Enqueue(NextEvent.Exit);
+            activeState = false;
+            triggeredExit = true;
+        }
+
+        private void ExitTrigger()
+        {
+            exitTriggerEvent?.Invoke();
+            if (!string.IsNullOrEmpty(exitGameEvent)) GameEventMessage.SendEvent(exitGameEvent, gameObject);
         }
 
         private void OnDestroy()
@@ -36,20 +71,10 @@ namespace Gameplay
                 ExitTrigger();
         }
 
-        private void OnTriggerExit(Collider other)
+        private enum NextEvent
         {
-            if(!other.CompareTag(triggerTag) || (triggerOnce && triggeredExit))
-                return;
-
-            ExitTrigger();
-            activeState = false;
-            triggeredExit = true;
-        }
-
-        private void ExitTrigger()
-        {
-            if (exitTriggerEvent != null) exitTriggerEvent.Invoke();
-            if (!String.IsNullOrEmpty(exitGameEvent)) GameEventMessage.SendEvent(exitGameEvent);
+            Enter,
+            Exit
         }
     }
 }

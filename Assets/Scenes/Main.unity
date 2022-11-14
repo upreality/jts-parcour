@@ -1588,6 +1588,7 @@ GameObject:
   - component: {fileID: 560747904}
   - component: {fileID: 560747906}
   - component: {fileID: 560747902}
+  - component: {fileID: 560747907}
   m_Layer: 0
   m_Name: LevelLoadingController
   m_TagString: Untagged
@@ -1678,6 +1679,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: LevelLoaded
+--- !u!114 &560747907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560747901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ea9f92203d31e240bc110ff7b26d05c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugMode: 0
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 560747904}
+        m_TargetAssemblyTypeName: Levels.presentation.LevelLoadingController, LevelsAssembly
+        m_MethodName: LoadHub
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  GameEvent: LoadHub
+  ListenForAllGameEvents: 0
 --- !u!1 &566049974
 GameObject:
   m_ObjectHideFlags: 0
@@ -3736,6 +3767,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1039187586}
   - component: {fileID: 1039187587}
+  - component: {fileID: 1039187588}
   m_Layer: 0
   m_Name: KeyEventSim
   m_TagString: Untagged
@@ -3779,6 +3811,27 @@ MonoBehaviour:
     VirtualButtonName: Submit
     VirtualButtonNameAlt: Jump
   GameEvent: Init Share
+--- !u!114 &1039187588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039187584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 650b906279ed68844a95779c31c3c187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugMode: 0
+  InputData:
+    EnableAlternateInputs: 0
+    InputMode: 1
+    KeyCode: 260
+    KeyCodeAlt: 32
+    VirtualButtonName: Submit
+    VirtualButtonNameAlt: Jump
+  GameEvent: LoadHub
 --- !u!4 &1058452041 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1058452041, guid: 0b5633ffafe83d14c972b01f08e08286,
@@ -4064,6 +4117,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolyArtWizardMaskTintMat
       objectReference: {fileID: 0}
+    - target: {fileID: 1953271650171834, guid: dbf7a0c9d76b77a40af3104feac0641d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4063552230360950, guid: dbf7a0c9d76b77a40af3104feac0641d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -4107,6 +4164,11 @@ PrefabInstance:
     - target: {fileID: 4063552230360950, guid: dbf7a0c9d76b77a40af3104feac0641d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 95805638432926132, guid: dbf7a0c9d76b77a40af3104feac0641d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 95805638432926132, guid: dbf7a0c9d76b77a40af3104feac0641d,
         type: 3}
@@ -5100,7 +5162,7 @@ PrefabInstance:
     - target: {fileID: 5003983515686702307, guid: 0b5633ffafe83d14c972b01f08e08286,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5006041144151971659, guid: 0b5633ffafe83d14c972b01f08e08286,
         type: 3}
@@ -5225,7 +5287,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1672022179
 Transform:
   m_ObjectHideFlags: 0
@@ -5345,7 +5407,7 @@ PrefabInstance:
     - target: {fileID: 6817638361354391145, guid: 32fce1012f8c24c43af86f00f457f500,
         type: 3}
       propertyPath: a_Sliding
-      value: Sliding
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6817638361354391145, guid: 32fce1012f8c24c43af86f00f457f500,
         type: 3}
@@ -5464,6 +5526,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6817638361354391145, guid: 32fce1012f8c24c43af86f00f457f500,
         type: 3}
+      propertyPath: enableMovementDebugging
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6817638361354391145, guid: 32fce1012f8c24c43af86f00f457f500,
+        type: 3}
       propertyPath: _3rdPersonCharacterAnimator
       value: 
       objectReference: {fileID: 1114239035}
@@ -5475,12 +5542,12 @@ PrefabInstance:
     - target: {fileID: 6817638361354391147, guid: 32fce1012f8c24c43af86f00f457f500,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6817638361354391147, guid: 32fce1012f8c24c43af86f00f457f500,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6817638361354391147, guid: 32fce1012f8c24c43af86f00f457f500,
         type: 3}

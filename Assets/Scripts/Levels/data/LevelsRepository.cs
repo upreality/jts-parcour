@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using Levels.data.model;
-using Levels.domain;
 using Levels.domain.model;
 using Levels.domain.repositories;
 using UnityEngine;
 using Zenject;
+using static Levels.domain.repositories.ILevelsRepository;
 
 namespace Levels.data
 {
@@ -22,8 +22,10 @@ namespace Levels.data
             var entity = GetById(levelId);
             return GetLevel(entity, index);
         }
-
-        public GameObject GetLevelScene(long levelId) => GetById(levelId).scenePrefab;
+        
+        public GameObject GetLevelScene(long levelId) => levelId == HubId ? 
+            levelsDao.GetHub() 
+            : GetById(levelId).scenePrefab;
 
         private Level GetLevel(LevelEntity entity, int index)
         {
@@ -40,6 +42,7 @@ namespace Levels.data
         public interface ILevelsDao
         {
             public List<LevelEntity> GetLevelEntities();
+            public GameObject GetHub();
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using Levels.domain;
-using Levels.domain.repositories;
+﻿using Levels.domain.repositories;
 using Levels.presentation.loader;
 using UnityEngine;
 using UnityEngine.Events;
@@ -22,5 +21,7 @@ namespace Levels.presentation
             loader.LoadLevel(scene);
             onLoadLevel.Invoke();
         }
+        
+        public void LoadHub() => LoadLevel(ILevelsRepository.HubId);
     }
 }

@@ -7,5 +7,7 @@ namespace Levels.domain.repositories
     {
         List<Level> GetLevels();
         Level GetLevel(long levelId);
+
+        public static int HubId = -1;
     }
 }

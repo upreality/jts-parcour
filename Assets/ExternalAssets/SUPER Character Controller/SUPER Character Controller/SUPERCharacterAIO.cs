@@ -1227,7 +1227,6 @@ namespace SUPERCharacter
                                  (currentStance == Stances.Standing && !Jumped);
             
             
-            Debug.Log("Jump jc=" + jumpCount);
             if (!canJumpDefault && jumpCount <= 0) return;
             onJump?.Invoke();
             
@@ -1236,7 +1235,6 @@ namespace SUPERCharacter
             p_Rigidbody.velocity = (Vector3.right * p_Rigidbody.velocity.x) +
                                    (Vector3.forward * p_Rigidbody.velocity.z);
             p_Rigidbody.AddForce(Vector3.up * (Force / 10), ForceMode.Impulse);
-            Debug.Log("Jump with force: " + Force); 
             if (enableStaminaSystem && jumpingDepletesStamina)
             {
                 InstantStaminaReduction(s_JumpStaminaDepletion);

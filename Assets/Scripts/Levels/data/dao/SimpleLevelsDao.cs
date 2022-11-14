@@ -9,6 +9,9 @@ namespace Levels.data.dao
     public class SimpleLevelsDao : ScriptableObject, LevelsRepository.ILevelsDao
     {
         [SerializeField] private int defaultReward = 100;
+        
+        [SerializeField] private GameObject hub;
+        
 
         [SerializeField] private List<GameObject> scenePrefabs = new();
 
@@ -16,6 +19,8 @@ namespace Levels.data.dao
             .Range(0, scenePrefabs.Count)
             .Select(GetEntity)
             .ToList();
+
+        public GameObject GetHub() => hub;
 
         private LevelEntity GetEntity(int levelId) => new LevelEntity(defaultReward, scenePrefabs[levelId]);
     }

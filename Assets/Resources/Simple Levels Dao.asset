@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Simple Levels Dao
   m_EditorClassIdentifier: 
   defaultReward: 0
+  hub: {fileID: 5986728653118532318, guid: 7754e0274b4ad5a4ab1a2ca7ca632ddf, type: 3}
   scenePrefabs:
   - {fileID: 3162181485403739344, guid: 08e8c4743fae33546a4a41d8bb10f218, type: 3}
   - {fileID: 3634756615278807473, guid: ac7c06350b81d424bb24e1f0265399a1, type: 3}

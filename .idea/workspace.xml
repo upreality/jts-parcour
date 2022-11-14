@@ -2,7 +2,563 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11d22b23-94c9-40b9-8d18-1be45c1b03ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Editor/Nody/Settings/NodyWindowSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Editor/Nody/Settings/NodyWindowSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Demo.OminousOffice.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Demo.OminousOffice.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Demo.SkySweptFortress.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Demo.SkySweptFortress.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/Characters/CharacterAnimator.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/Characters/CharacterAnimator.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/Characters/Character_Base.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/Characters/Character_Base.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/Structures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/Structures/House.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/Structures/House.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/Structures/OfifceAndWearhouse.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/Structures/OfifceAndWearhouse.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/Structures/SkySweptFortress.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/Structures/SkySweptFortress.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/WorldObjects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/WorldObjects/WorldObjeccts.Facility.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/WorldObjects/WorldObjeccts.Facility.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/WorldObjects/WorldObjects.House.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/WorldObjects/WorldObjects.House.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/WorldObjects/WorldObjects.Office.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/WorldObjects/WorldObjects.Office.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/WorldObjects/WorldObjects.SkySweptFortress.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/FBXs/WorldObjects/WorldObjects.SkySweptFortress.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Characters/CharacterFace 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Characters/CharacterFace 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Characters/CharacterFace 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Characters/CharacterFace 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Characters/Character_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Characters/Character_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Characters/Character_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Characters/Character_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Skyboxes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Skyboxes/DaySky.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Skyboxes/DaySky.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Skyboxes/DaySkyToon.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Skyboxes/DaySkyToon.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Skyboxes/Night Sky.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Skyboxes/Night Sky.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Bamboo.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Bamboo.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Bark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Bark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Brick.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Brick.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Carpet.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Carpet.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Cement_Fabricated.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Cement_Fabricated.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Cement_Moulded.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Cement_Moulded.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/ChainLinkFence.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/ChainLinkFence.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Constuction Props.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Constuction Props.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Dirt.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Dirt.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Dirt_Light.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Dirt_Light.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Drywall_DarkBlue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Drywall_DarkBlue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Drywall_White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Drywall_White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Glass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Glass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Grass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Grass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Grass_Edge.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Grass_Edge.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Grass_Light.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Grass_Light.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/OfficeDrywall.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/OfficeDrywall.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Red Wood.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Red Wood.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Sand.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Sand.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Shadeless Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Shadeless Black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Siding.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Siding.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Slate.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Slate.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Stone.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Stone.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Stone_Light.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Stone_Light.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Tile.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Tile.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Universal Props Toon.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Universal Props Toon.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Water.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Water.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/WindowLining.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/WindowLining.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Wood Flooring.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Wood Flooring.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Wood_Cut.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Materials/Structural/Wood_Cut.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/FacilityProps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/FacilityProps/Railing.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/FacilityProps/Railing.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/FacilityProps/Stairs.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/FacilityProps/Stairs.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Bed.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Bed.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Billiards.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Billiards.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Chair.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Chair.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Coffee Table.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Coffee Table.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Computer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Computer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/ComputerDesk.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/ComputerDesk.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Couch.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Couch.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Door Way.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Door Way.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Door.001.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Door.001.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Dresser.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Dresser.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Exterior.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Exterior.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/FloppyHolder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/FloppyHolder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/FrontDoor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/FrontDoor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/House.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/House.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Kitchen Counter.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Kitchen Counter.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Kitchen Cupboards.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Kitchen Cupboards.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Lamp.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Lamp.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Pen Cup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Pen Cup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Pool Table.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Pool Table.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/PottedPlant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/PottedPlant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Shelf.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Shelf.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Shrub.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Shrub.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/StairCase.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/StairCase.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/TV.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/TV.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Table.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Table.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Table_Small.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Table_Small.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Trash Can.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Trash Can.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Bench.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Bench.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/CeilingLight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/CeilingLight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Door.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Door.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/FireExtinguisher.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/FireExtinguisher.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/MiniVan.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/MiniVan.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Rock.001.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Rock.001.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Rock.002.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Rock.002.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/SodaMachine.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/SodaMachine.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/StreetLight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/StreetLight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Tree.001.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Tree.001.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Tree.002.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Tree.002.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Tree.003.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Tree.003.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/VendingMachine.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/VendingMachine.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfifceAndWearhouse.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfifceAndWearhouse.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Brick_Struct_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Brick_Struct_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Characters/Character.001.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Characters/Character.001.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Characters/Character.002.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Characters/Character.002.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Grass.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Grass.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Leaves.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Leaves.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/SkyIsland.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/SkyIsland.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/SmallIsland.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/SmallIsland.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Trunk.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Trunk.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Water.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Water.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/BrickEdging.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/BrickEdging.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Collectable.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Collectable.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Moving Platform.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Moving Platform.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Staris.1x1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Staris.1x1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Staris.2x2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Staris.2x2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Staris.2x2x5.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Staris.2x2x5.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StaticPlatform.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StaticPlatform.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/SteppingStone1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/SteppingStone1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/SteppingStone2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/SteppingStone2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/SteppingStone3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/SteppingStone3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x5.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x5.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.3x2x2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.3x2x2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.3x2x3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.3x2x3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.3x2x4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.3x2x4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.3x2x5.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.3x2x5.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Wall.Corner.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Wall.Corner.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Wall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Wall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/README.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/SceneData.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/SceneData/Demo.OminousOffice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/SceneData/Demo.OminousOffice/OcclusionCullingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/SceneData/Demo.OminousOffice/OcclusionCullingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/SceneData/Demo.OminousOfficeLD.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/SceneData/Demo.OminousOfficeLD.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/SceneData/Demo.SkySweptFortress.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/SceneData/Demo.SkySweptFortress/OcclusionCullingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/SceneData/Demo.SkySweptFortress/OcclusionCullingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/SceneData/Demo.SkySweptFortressLD.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/SceneData/Demo.SkySweptFortressLD.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/Collectable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/Collectable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/Interactable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/Interactable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/OminousOffice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/OminousOffice/Door.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/OminousOffice/Door.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/SkySweptFortress.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/SkySweptFortress/CollectableCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/SkySweptFortress/CollectableCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/SkySweptFortress/CollectableGem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/SkySweptFortress/CollectableGem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/SkySweptFortress/MovingPlatform.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Scripts/SkySweptFortress/MovingPlatform.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Sounds/GemPickup.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Sounds/GemPickup.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Bark.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Bark/Wood_Bark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Bark/Wood_Bark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Bark/Wood_Cut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Bark/Wood_Cut.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Brick.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Brick/Brick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Brick/Brick.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Brick/BrownBrick_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Brick/BrownBrick_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Carpet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Carpet/Carpet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Carpet/Carpet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Carpet/Carpet_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Carpet/Carpet_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Carpet/Rug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Carpet/Rug.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Carpet/Rug_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Carpet/Rug_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Fabricated.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Fabricated/Cement_Fabricated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Fabricated/Cement_Fabricated.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Fabricated/Cement_Fabricated_Normal_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Fabricated/Cement_Fabricated_Normal_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Fabricated/Cement_Fabricated_Occlusion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Fabricated/Cement_Fabricated_Occlusion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Moulded.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Moulded/Cement_Moulded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Moulded/Cement_Moulded.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Moulded/Cement_Moulded_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Moulded/Cement_Moulded_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Moulded/Cement_Moulded_Normal_Color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Cement/Moulded/Cement_Moulded_Normal_Color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Characters/Character_1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Characters/Character_1/Character_1_Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Characters/Character_1/Character_1_Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Characters/Character_2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Characters/Character_2/Character_2_Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Characters/Character_2/Character_2_Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Characters/Character_3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Characters/Character_3/Character_3_Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Characters/Character_3/Character_3_Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Dirt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Dirt/Dirt_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Dirt/Dirt_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Dirt/Dirt_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Dirt/Dirt_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Dirt/Dirt_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Dirt/Dirt_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Grass.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Grass/GrassEdge_Mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Grass/GrassEdge_Mask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Grass/Grass_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Grass/Grass_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Grass/Grass_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Grass/Grass_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Grass/Light_Grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Grass/Light_Grass.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Misc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Misc/ChainLinkFence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Misc/ChainLinkFence.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Misc/Metal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Misc/Metal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Path.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Path/Path.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Path/Path.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Construction.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Construction/Construction_Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Construction/Construction_Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Universals.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Universals/Universal_Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Universals/Universal_Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Universals/Universal_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Universals/Universal_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Universals/Universal_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Universals/Universal_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Universals/Universal_Roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Universals/Universal_Roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Universals/Universal_Smoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Props/Universals/Universal_Smoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Sand.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Sand/Sand_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Sand/Sand_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Siding.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Siding/Siding.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Siding/Siding.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Siding/Siding_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Siding/Siding_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Bottom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Front.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Front.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Skybox.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Skybox.blend1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky - toon/Top.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky/Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky/Back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky/Bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky/Bottom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky/Front.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky/Front.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky/Left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky/Left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky/Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky/Right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky/Top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/DaySky/Top.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/NightSky.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/NightSky/Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/NightSky/Back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/NightSky/Bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/NightSky/Bottom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/NightSky/Front.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/NightSky/Front.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/NightSky/Left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/NightSky/Left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/NightSky/Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/NightSky/Right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/NightSky/Top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Skyboxes/NightSky/Top.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Sprites/CollectablesSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Sprites/CollectablesSprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Stone.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Stone/Stone_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Stone/Stone_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Stone/Stone_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Stone/Stone_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Tile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Tile/Slate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Tile/Slate.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Tile/Slate_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Tile/Slate_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Tile/Tile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Tile/Tile.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Tile/Tile_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Tile/Tile_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Wood Flooring.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Wood Flooring/Bamboo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Wood Flooring/Bamboo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Wood Flooring/Wood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Wood Flooring/Wood.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Wood Flooring/Wood_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Wood Flooring/Wood_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Wood Flooring/Wood_Smoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/Demo Assets/Textures/Wood Flooring/Wood_Smoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Crosshairs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Crosshairs/Crosshair.001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Crosshairs/Crosshair.001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Crosshairs/Crosshair.002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Crosshairs/Crosshair.002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Crosshairs/Crosshair.003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Crosshairs/Crosshair.003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Crosshairs/Crosshair.004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Crosshairs/Crosshair.004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Presets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Presets/FirstPersonCharacter.preset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Presets/FirstPersonCharacter.preset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Presets/ThirdPersonCharacter.preset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Presets/ThirdPersonCharacter.preset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/SUPER Character Documentation and Reference.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/SUPER Character Documentation and Reference.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/SUPERCharacterAIO.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/SUPERCharacterAIO.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.001.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.002.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.003.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.004.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.004.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.005.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.005.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.006.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.006.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.007.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.007.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.008.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.008.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.009.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.009.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.010.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.010.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.011.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Carpet/Carpet.011.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.001.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.002.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.003.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.004.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.004.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.005.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.005.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.006.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.006.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.007.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.007.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.008.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.008.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.009.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.009.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.010.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.010.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.011.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Concrete/Concrete.011.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.001.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.002.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.003.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.004.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.004.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.005.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.005.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.006.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.006.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.007.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.007.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.008.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.008.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.009.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.009.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.010.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.010.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.011.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Grass/Grass.011.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Sand.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Sand/Sand.001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Sand/Sand.001.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Sand/Sand.002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Sand/Sand.002.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Sand/Sand.003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Sand/Sand.003.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Sand/Sand.004.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Sand/Sand.004.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Sand/Sand.005.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Sounds/Footsteps/Sand/Sand.005.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Super First Person Controller.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Super First Person Controller.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Super Third Person Controller.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SUPER Character Controller/SUPER Character Controller/Super Third Person Controller.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Analytics/adapter/GoogleAnalyticsAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Analytics/adapter/GoogleAnalyticsAdapter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +618,7 @@
       <workItem from="1667835835497" duration="38000" />
       <workItem from="1667840602953" duration="29000" />
       <workItem from="1668071089033" duration="10000" />
+      <workItem from="1668328142999" duration="1331000" />
     </task>
     <servers />
   </component>
