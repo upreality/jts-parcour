@@ -9,10 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 340705088825098518}
-  - component: {fileID: 2271486205377905960}
-  - component: {fileID: 340705088825098513}
   m_Layer: 0
-  m_Name: TraderAbTest
+  m_Name: TraderRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,46 +32,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2271486205377905960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340705088825098512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0871f748c48352f4593c03df6c2009ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &340705088825098513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340705088825098512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c445115a4fc0445e935264b4a72f1d3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  propName: TraderEnabled
-  onEnableProperty:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7344932510991366269}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!1001 &340705089866083523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -144,16 +102,10 @@ PrefabInstance:
     - target: {fileID: 7013261638882628798, guid: 505db12c3fa474441a19d7c54fc63076,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 505db12c3fa474441a19d7c54fc63076, type: 3}
---- !u!1 &7344932510991366269 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7013261638882628798, guid: 505db12c3fa474441a19d7c54fc63076,
-    type: 3}
-  m_PrefabInstance: {fileID: 340705089866083523}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7344932510991366271 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7013261638882628796, guid: 505db12c3fa474441a19d7c54fc63076,

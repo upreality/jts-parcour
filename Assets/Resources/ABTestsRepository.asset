@@ -13,24 +13,10 @@ MonoBehaviour:
   m_Name: ABTestsRepository
   m_EditorClassIdentifier: 
   tests:
-  - testName: TraderABTest
-    weight: 1
-    controlGroupPercentage: 15
-    groups:
-    - groupName: TraderEnabled
-      property: TraderEnabled
-      weight: 1
   - testName: SuperCCFP
     weight: 1
     controlGroupPercentage: 15
     groups:
     - groupName: SuperCCFirstPerson
       property: SuperFirstPersonController
-      weight: 1
-  - testName: JumpWindow
-    weight: 1
-    controlGroupPercentage: 15
-    groups:
-    - groupName: JumpWindowEnabled
-      property: JumpWindowEnabled
       weight: 1

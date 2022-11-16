@@ -2821,10 +2821,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   properties:
-  - propName: TraderEnabled
-    onApply:
-      m_PersistentCalls:
-        m_Calls: []
   - propName: SuperFirstPersonController
     onApply:
       m_PersistentCalls:
@@ -2852,22 +2848,6 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 1
-          m_CallState: 2
-  - propName: JumpWindowEnabled
-    onApply:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1073346346}
-          m_TargetAssemblyTypeName: Jump, Assembly-CSharp
-          m_MethodName: SetDefaultJumpWindow
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0.6
-            m_StringArgument: 
-            m_BoolArgument: 0
           m_CallState: 2
 --- !u!4 &853037243
 Transform:
@@ -5152,7 +5132,7 @@ PrefabInstance:
     - target: {fileID: 4963303597735766151, guid: 0b5633ffafe83d14c972b01f08e08286,
         type: 3}
       propertyPath: jumpWindowTimerDefault
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5003983515686702307, guid: 0b5633ffafe83d14c972b01f08e08286,
         type: 3}
@@ -5162,7 +5142,7 @@ PrefabInstance:
     - target: {fileID: 5003983515686702307, guid: 0b5633ffafe83d14c972b01f08e08286,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5006041144151971659, guid: 0b5633ffafe83d14c972b01f08e08286,
         type: 3}
@@ -5547,7 +5527,7 @@ PrefabInstance:
     - target: {fileID: 6817638361354391147, guid: 32fce1012f8c24c43af86f00f457f500,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6817638361354391147, guid: 32fce1012f8c24c43af86f00f457f500,
         type: 3}
